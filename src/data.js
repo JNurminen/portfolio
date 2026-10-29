@@ -82,6 +82,14 @@ export const education = [
 
 export const projects = [
   {
+    title: 'Portfolio',
+    description:
+      'Tämä sivusto. Responsiivinen yhden sivun portfolio, jonka sisältö tulee yhdestä datatiedostosta. Julkaistaan automaattisesti GitHub Pagesiin GitHub Actionsilla jokaisen pushin yhteydessä.',
+    tech: ['React', 'Tailwind CSS', 'Vite', 'GitHub Actions'],
+    github: 'https://github.com/JNurminen/portfolio',
+    demo: 'https://jnurminen.github.io/portfolio/',
+  },
+  {
     title: 'Muistiinpanosovellus',
     description:
       'Full stack -sovellus, jossa käyttäjä voi rekisteröityä, kirjautua ja hallita omia muistiinpanojaan. Kirjautuminen on toteutettu JWT-tokeneilla, ja käyttöliittymää on testattu Cypressillä.',
