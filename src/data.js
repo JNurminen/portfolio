@@ -129,12 +129,4 @@ export const projects = [
     github: 'https://github.com/JNurminen/djangosovellus',
     demo: '',
   },
-  {
-    title: 'REST API (Northwind)',
-    description:
-      'ASP.NET Core -rajapinta, jonka kautta voi käsitellä Northwind-tietokannan asiakkaita, työntekijöitä ja tuotteita Entity Frameworkin avulla.',
-    tech: ['C#', 'ASP.NET Core', 'Entity Framework', 'SQL Server'],
-    github: 'https://github.com/JNurminen/RestApi1',
-    demo: '',
-  },
 ]
