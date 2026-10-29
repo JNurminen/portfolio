@@ -3,7 +3,7 @@
 export const profile = {
   name: 'Jani Nurminen',
   title: 'Tieto- ja viestintätekniikan opiskelija',
-  photo: '/profile.jpg',
+  photo: `${import.meta.env.BASE_URL}profile.jpg`,
   intro:
     'Teknisestä ongelmanratkaisusta, tekoälystä ja ohjelmistojen käytännön hyödyntämisestä innostunut ohjelmistokehittäjä. Opiskelen insinööriksi Metropoliassa.',
   about: [
